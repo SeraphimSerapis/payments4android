@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Pizza Heaven</string>
+    <string name="app_name_ab">PIZZA HEAVEN</string>
+    <string name="progress_init_title">Please wait&#8230;</string>
+    <string name="progress_init_msg">Initializing PayPal library</string>
+    <string name="main_configuration_header">SELECT YOUR SIZE &amp; INGREDIENTS</string>
+    <string name="main_hello">HI %1$s!</string>
+    <string name="main_welcome_back">WELCOME BACK %1$s!</string>
+    <string name="main_configuration_price_string">YOUR PRICE: %1$s \u20ac</string>
+    <string name="main_toast_payment_success">Payment done</string>
+    <string name="main_toast_payment_canceled">Payment canceled</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+    <string name="action_forgot">Recover lost password</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_name">Firstname Lastname</string>
+    <string name="prompt_address">Address</string>
+    <string name="action_sign_in_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="content_login">Log In with PayPal</string>
+    <string name="form_or">OR</string>
+    
+    <!-- Callback urls -->
+    <string name="callback_url">http://mycallback/auth</string>
+    <string name="callback_url_no_scheme">mycallback/auth</string>
+
+</resources>

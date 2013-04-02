@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#ffb300</color>
+    <color name="title_pressed">#CCffb300</color>
+    <color name="crouton_text">#FF2D2D2D</color>
+</resources>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_medium" >
+
+    <TextView
+        android:id="@+id/main_configuration_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="@string/main_configuration_header"
+        android:textSize="@dimen/title_size" />
+
+    <Spinner
+        android:id="@+id/main_size_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_configuration_header"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/sizes" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_configuration_price"
+        android:layout_below="@+id/main_size_spinner"
+        android:fadeScrollbars="false" />
+
+    <TextSwitcher
+        android:id="@+id/main_configuration_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out" >
+
+        <TextView
+            android:id="@+id/main_configuration_price_normal"
+            style="@style/switcherText" />
+
+        <TextView
+            android:id="@+id/main_configuration_price_highlight"
+            style="@style/switcherText"
+            android:textColor="@color/title" />
+    </TextSwitcher>
+
+</RelativeLayout>

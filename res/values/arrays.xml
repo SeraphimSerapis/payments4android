@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="toppings">
+        <item>Aspergus</item>
+        <item>Chilli</item>
+        <item>Garlic</item>
+        <item>Ham</item>
+        <item>Mushrooms</item>
+        <item>Onions</item>
+        <item>Paprika</item>
+        <item>Pineapple</item>
+        <item>Salami</item>
+        <item>Shrimps</item>
+        <item>Spinach</item>
+        <item>Tuna</item>
+    </string-array>
+    <string-array name="presets">
+        <item>Boscaiola</item>
+        <item>Diavolo</item>
+        <item>Hawaii</item>
+        <item>Tonno E Cipolla</item>
+    </string-array>
+
+</resources>

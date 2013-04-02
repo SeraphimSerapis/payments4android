@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="padding_small">0dp</dimen>
+    <dimen name="padding_medium">4dp</dimen>
+    <dimen name="padding_large">8dp</dimen>
+    <dimen name="fragment_size">400dp</dimen>
+    <dimen name="slidingmenu_offset">600dp</dimen>
+
+</resources>
